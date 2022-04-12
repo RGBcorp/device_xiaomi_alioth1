@@ -1,22 +1,25 @@
-# Android device tree for Redmi K40 / POCO F3 / Mi 11x (alioth)
+Copyright (C) 2021 LineageOS
 
-## Spec Sheet
+Device configuration for Poco F3
+=========================================
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core (1x 3.2GHz Kryo 585 + 3x 2.42GHz Kryo 585 + 4x 1.8GHz Kryo 585)
-| Chipset                 | Qualcomm SM8250-AC Snapdragon 870 |
-| GPU                     | Adreno 650                        |
-| Memory                  | 6/8 GB                            |
-| Shipped Android Version | Android 11, MIUI 12 for POCO      |
-| Storage                 | 128/256 GB                        |
-| Battery                 | 4520 mAh (non-removable)          |
-| Dimensions              | 163.7 x 76.4 x 7.8 mm             |
-| Display                 | 2400x1080 pixels, 6.67 (~386 PPI) |
-| Rear Camera             | 48 MP + 8MP + 5MP                 |
-| Front Camera            | 20 MP                             |
-| Release                 | 2021/1                            |
+The Poco F3 (codenamed _"alioth"_) are mid range smartphones from Xiaomi's sub-brand Poco, respectively.
 
-## Device Picture
+Poco F3 was announced and released in March 4, 2021.
 
- ![POCO F3](https://i.postimg.cc/Qdr9D300/97a7349febb7c112aae46d2000c7bbae.jpg)
+## Device specifications
+
+Basic   | Spec Sheet
+-------:|:-------------------------
+SoC     | Qualcomm SDM870 Snapdragon 870
+CPU     | Octa-core (1x3.2 GHz Kryo 585 Prime Cortex A77 + 3x2.42 GHz Kryo 585 Gold Cortex A77 + 4x1.8 GHz Kryo 585 Silver Cortex A55)
+GPU     | Adreno 650
+Memory  | 6/8 GB RAM
+Shipped Android Version | 11 with MIUI 12.5
+Storage | 128/256 GB
+Battery | Non-removable Li-Po 4520 mAh battery
+Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, Amoled (~395 ppi density)
+
+## Device picture
+
+![POCO F3](https://ds-blobs-2.cdn.devapps.ru/22556729.png "POCO F3")
