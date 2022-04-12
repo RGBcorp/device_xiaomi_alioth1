@@ -1,10 +1,22 @@
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+
 # Graphics
-debug.hwui.renderer=skiagl
+debug.hwui.renderer=skiavk
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
+
+# Display Feature
+debug.cpurend.vsync=false
+ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kona.api30
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
 
 # Transcoding related property.
 debug.media.transcoding.codec_max_operating_rate_720P=240
