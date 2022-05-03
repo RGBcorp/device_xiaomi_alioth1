@@ -9,8 +9,8 @@
 
 #include "vendor_init.h"
 
-#define DESCRIPTION "raven-user 12 SP2A.220405.004 8233519 release-keys"
-#define FINGERPRINT "google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys"
+#define DESCRIPTION "raven-user 12 SP2A.220505.002 8353555 release-keys"
+#define FINGERPRINT "google/raven/raven:12/SP2A.220505.002/8353555:user/release-keys"
 
 static const variant_info_t aliothin_info = {
     .hwc_value = "INDIA",
